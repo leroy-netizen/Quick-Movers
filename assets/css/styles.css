@@ -1,7 +1,52 @@
 /** @format */
 
+/* Global Styles */
+html {
+	height: auto;
+}
 body {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	font-family: 'Poppins', 'Actor', 'Adamina', sans-serif, serif;
+}
+
+/* Header styles */
+#header {
+	background-color: aqua;
+	background-image: url('/assets/images/moving\ 1.png');
+	background-position: center center;
+	height: 90vh;
+}
+#header nav {
+	padding-top: 50px;
+	margin-left: 40%;
+}
+#header nav .nav-links {
+	/* justify-content: space-between; */
+}
+
+#header > nav > .nav-links > li {
+	list-style: none;
+	display: inline;
+	margin: 60px;
+}
+#header > nav > .nav-links > li > a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+.info {
+	margin-top: 5%;
+}
+.info > .large {
+	font-size: 5rem;
+	margin-left: 5%;
+	color: #faff00;
+	width: 50%;
+}
+.info > .small {
+	font-size: 2.5rem;
+	margin-left: 5%;
+	color: #fff;
+	width: 50%;
 }
