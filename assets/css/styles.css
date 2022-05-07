@@ -88,7 +88,7 @@ body {
 	margin-left: 40px;
 	margin-top: 10%;
 }
-.hustle > .hustle-content > .img-desc > .desc-container > .strip {
+.strip {
 	width: 150px;
 	height: 5px;
 	/* background-color: black; */
@@ -120,7 +120,7 @@ body {
 .hustle > .hustle-content > .img-desc > .desc-container > .button {
 	background-color: black;
 	color: #ffac12;
-	padding: 20px;
+	padding: 10px 10px;
 	height: 50px;
 	border: none;
 	font-size: 15px;
@@ -132,4 +132,68 @@ body {
 .fa-solid {
 	color: #ffac12;
 	margin-left: 5px;
+}
+
+/* Movers section */
+#movers {
+	width: 100vw;
+	background-color: lightgray;
+	border: #fff 2px solid;
+	margin-top: 50px;
+}
+#movers .strip {
+	margin-top: 5%;
+	margin-left: 12vw;
+}
+#movers > h1 {
+	margin-left: 12vw;
+	font-size: 3rem;
+}
+/* cards */
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: inherit;
+}
+.card {
+	background-color: white;
+	width: 25%;
+	margin: 15px;
+	border-radius: 40px;
+}
+.card h2 {
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.card-img {
+	height: 400px;
+	/* background-color: darkgray; */
+	margin-bottom: 10px;
+}
+.card > .card-1 {
+	background-image: url('/assets/images/ehem\ 1.png');
+	background-size: 100% 100%;
+}
+
+.icons-container {
+	display: flex;
+	justify-content: center;
+	height: 10%;
+}
+.icon {
+	width: 33.33%;
+	border: 1px solid lightgray;
+	text-align: center;
+	align-items: center;
+}
+.fa-solid {
+	color: black;
+	font-size: larger;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+.bed {
+	border-bottom-left-radius: 5px;
 }
