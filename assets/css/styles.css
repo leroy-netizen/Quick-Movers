@@ -1,12 +1,13 @@
 /** @format */
 
 /* Global Styles */
-html {
-	height: auto;
-}
+/* * {
+	border: #faff00 2px solid;
+} */
+
 body {
-	/* margin: 0;
-	padding: 0; */
+	margin: 0;
+	padding: 0;
 	font-family: 'Poppins', 'Actor', 'Adamina', sans-serif, serif;
 }
 
@@ -15,6 +16,7 @@ body {
 	background-color: aqua;
 	background-image: url('/assets/images/moving\ 1.png');
 	background-position: center center;
+	object-fit: none;
 	height: 90vh;
 }
 #header nav {
@@ -28,7 +30,7 @@ body {
 #header > nav > .nav-links > li {
 	list-style: none;
 	display: inline;
-	margin: 60px;
+	margin: 30px;
 }
 #header > nav > .nav-links > li > a {
 	text-decoration: none;
@@ -49,4 +51,85 @@ body {
 	margin-left: 5%;
 	color: #fff;
 	width: 50%;
+}
+
+/* Hustle section */
+.hustle {
+	margin-top: 50px;
+	/* border: 3px solid red; */
+}
+.hustle > .hustle-content {
+	display: flex;
+}
+
+.hustle > .hustle-content > .img-hustle {
+	background-image: url('/assets/images/moving2\ 1.png');
+	/* background-color: green; */
+	background-size: 100% 100%;
+	width: 40%;
+	min-height: 800px;
+	/* border: #faff00 2px solid; */
+	margin: 5px;
+}
+
+.hustle > .hustle-content > .img-desc {
+	/* background-color: brown; */
+	/* opacity: 0.1; */
+	/* border: darkgray 2px solid; */
+	align-items: center;
+	width: 60%;
+
+	justify-content: center;
+}
+.hustle > .hustle-content > .img-desc > .desc-container {
+	width: 70%;
+	/* border: green 2px solid; */
+
+	margin-left: 40px;
+	margin-top: 10%;
+}
+.hustle > .hustle-content > .img-desc > .desc-container > .strip {
+	width: 150px;
+	height: 5px;
+	/* background-color: black; */
+	background: linear-gradient(
+		90deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(176, 135, 60, 1) 0%,
+		rgba(0, 0, 0, 1) 39%,
+		rgba(192, 207, 10, 1) 100%
+	);
+	margin-left: 20px;
+	margin-top: 20%;
+}
+.hustle > .hustle-content > .img-desc > .desc-container > .desc-text {
+	margin-left: 20px;
+	width: 70%;
+}
+
+.hustle > .hustle-content > .img-desc > .desc-container > .desc-text h1 {
+	font-size: 3rem;
+	font-weight: 300;
+	margin-top: -2px;
+}
+.hustle > .hustle-content > .img-desc > .desc-container > .desc-text p {
+	font-size: 2rem;
+	font-weight: 200;
+	color: darkgray;
+}
+.hustle > .hustle-content > .img-desc > .desc-container > .button {
+	background-color: black;
+	color: #ffac12;
+	padding: 20px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	display: block;
+	border-top-right-radius: 20px;
+	transform: scale(2);
+	margin: 80px;
+}
+.fa-solid {
+	color: #ffac12;
+	margin-left: 5px;
 }
