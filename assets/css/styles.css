@@ -452,7 +452,7 @@ form a {
 	background-color: lightgray;
 }
 .details {
-	border: 1px white solid;
+	background-color: white;
 	width: 50vw;
 	border-radius: 2rem;
 }
@@ -469,6 +469,19 @@ form a {
 }
 .icn {
 	border-right: 1px solid gray;
+}
+.desc {
+	background-color: white;
+	width: 50vw;
+	overflow: none;
+	border-radius: 2rem;
+	margin-top: 30px;
+}
+.h {
+	width: 100%;
+}
+.desc h1 {
+	margin-left: 40px;
 }
 .desc p {
 	width: 50%;
