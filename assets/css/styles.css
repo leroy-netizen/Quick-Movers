@@ -13,7 +13,6 @@ body {
 
 /* Header styles */
 #header {
-	background-color: aqua;
 	background-image: url('/assets/images/moving\ 1.png');
 	background-position: center center;
 	object-fit: none;
@@ -172,27 +171,27 @@ body {
 	margin-bottom: 10px;
 }
 .card > .card-1 {
-	background-image: url('/assets/images/ehem\ 1.png');
+	background-image: url('../images/ehem\ 1.png');
 	background-size: 100% 100%;
 }
 .card > .card-2 {
-	background-image: url('/assets/images/wewe\ 1.png');
+	background-image: url('../images/wewe\ 1.png');
 	background-size: 100% 100%;
 }
 .card > .card-3 {
-	background-image: url('/assets/images/movers\ 1.png');
+	background-image: url('../images/movers\ 1.png');
 	background-size: 100% 100%;
 }
 .card > .card-4 {
-	background-image: url('/assets/images/chapchap\ 1.png');
+	background-image: url('../images/chapchap\ 1.png');
 	background-size: 100% 100%;
 }
 .card > .card-5 {
-	background-image: url('/assets/images/mashinani\ 1.png');
+	background-image: url('../images/mashinani\ 1.png');
 	background-size: 100% 100%;
 }
 .card > .card-6 {
-	background-image: url('/assets/images/songa\ 1.png');
+	background-image: url('../images/songa\ 1.png');
 	background-size: 100% 100%;
 }
 
