@@ -8,3 +8,8 @@ Text = #FAFF00
 Font-type: Poppins,  Actor, Adamina
 
 ```
+
+```
+to run this project on your machine clone this repo
+git clone https://github.com/leroy-netizen/Quick-movers
+```

@@ -138,7 +138,7 @@ body {
 #movers {
 	width: 100vw;
 	background-color: lightgray;
-	border: #fff 2px solid;
+	/* border: #fff 2px solid; */
 	margin-top: 50px;
 }
 #movers .strip {
@@ -175,6 +175,26 @@ body {
 	background-image: url('/assets/images/ehem\ 1.png');
 	background-size: 100% 100%;
 }
+.card > .card-2 {
+	background-image: url('/assets/images/wewe\ 1.png');
+	background-size: 100% 100%;
+}
+.card > .card-3 {
+	background-image: url('/assets/images/movers\ 1.png');
+	background-size: 100% 100%;
+}
+.card > .card-4 {
+	background-image: url('/assets/images/chapchap\ 1.png');
+	background-size: 100% 100%;
+}
+.card > .card-5 {
+	background-image: url('/assets/images/mashinani\ 1.png');
+	background-size: 100% 100%;
+}
+.card > .card-6 {
+	background-image: url('/assets/images/songa\ 1.png');
+	background-size: 100% 100%;
+}
 
 .icons-container {
 	display: flex;
@@ -196,4 +216,231 @@ body {
 }
 .bed {
 	border-bottom-left-radius: 5px;
+}
+hr {
+	width: 80%;
+	font-weight: lighter;
+	border: 0 none;
+	height: 1px;
+	background-color: lightgray;
+	/* margin: auto; */
+}
+
+/* footer section */
+footer {
+	background-color: black;
+	height: 55vh;
+}
+.footer h1 {
+	color: white;
+	margin-left: 20%;
+}
+.footer-head {
+	/* border: #faff00 1px solid; */
+	/* margin-top: 200px; */
+}
+.footer > .footer-head > h1 > span {
+	color: #ffac12;
+}
+.footer-contents-container {
+	margin-top: 70px;
+
+	display: flex;
+	/* justify-content: space-around; */
+}
+.links-container {
+	/* border: #faff00 1px solid; */
+}
+.column-container {
+	margin-top: 40px;
+	display: flex;
+	/* border: 2px solid red; */
+	margin-left: 40vw;
+	margin-bottom: 20px;
+}
+.column {
+	margin-top: 30px;
+	margin-right: 50px;
+	/* border: 1px solid green; */
+	padding: 10px;
+	text-align: center;
+}
+.column h2 {
+	text-transform: capitalize;
+	color: #fff;
+}
+.column ul {
+	margin: 10px;
+}
+.column ul li {
+	color: #fff;
+	list-style: none;
+	line-height: 2;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.icons2-container {
+	align-items: center;
+	margin-left: 30px;
+	/* border: 1px solid orange; */
+	display: flex;
+	justify-content: center;
+}
+.icon-1 {
+	width: 2vw;
+	height: 4vh;
+	/* border: 1px solid lightgray; */
+	margin: 10px;
+	text-align: center;
+	align-items: center;
+}
+.icons2-container > .facebook,
+.instagram,
+.twitter {
+	color: #fff;
+	font-size: 2rem;
+}
+#header-property {
+	background-color: black;
+}
+nav ul {
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+	margin-left: 40%;
+}
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 30px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+.btn-prop {
+	background-color: #ffac12;
+	padding: 20px 20px;
+	border-top-right-radius: 40px;
+}
+.btn-prop a .fa-solid {
+	color: white;
+}
+.prop {
+	width: 100vw;
+}
+.mordern,
+.price {
+	color: #fff;
+}
+.mordern,
+.price > p {
+	font-size: 10px;
+}
+.mordern,
+.price > h3 {
+	font-size: 20px;
+}
+.head-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+.body-cont {
+	background-color: lightgray;
+}
+.img-form {
+	display: flex;
+}
+.left {
+	background-image: url('../images/Property\ House.png');
+	width: 60vw;
+	height: 70vh;
+	background-size: 100% 100%;
+}
+.form {
+	width: 40%;
+}
+input {
+	display: block;
+	width: 50%;
+	margin: 30px;
+	height: 2rem;
+	border-radius: 4px;
+	border: none;
+}
+.interest {
+	height: 4rem;
+	text-align: left;
+}
+form a {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 10px 10px;
+	margin-left: 30px;
+	width: 200px;
+	color: white;
+}
+.form-img {
+	background-color: lightgray;
+}
+.form-img > .img {
+	background-image: url('../images/Rectangle-10.png');
+	border-radius: 50%;
+}
+.arrow {
+	column-rule: white;
+}
+.rectangle-container {
+	margin-top: 40px;
+	width: 58vw;
+	height: 15vh;
+}
+.rectangles {
+	display: flex;
+
+	height: 100%;
+}
+.rectangles > .rectangle-1 {
+	background-image: url('../images/Rectangle-1.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-2 {
+	background-image: url('../images/Rectangle-2.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-3 {
+	background-image: url('../images/Rectangle-3.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-4 {
+	background-image: url('../images/Rectangle-4.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-5 {
+	background-image: url('../images/Rectangle-5.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-6 {
+	background-image: url('../images/Rectangle-6.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
+}
+.rectangles > .rectangle-7 {
+	background-image: url('../images/Rectangle-7.png');
+	background-size: 100% 100%;
+	width: 14%;
+	margin: 10px;
 }
