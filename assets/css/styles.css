@@ -451,3 +451,22 @@ form a {
 .body-2 {
 	background-color: lightgray;
 }
+.details {
+	border: 1px white solid;
+	width: 50vw;
+	border-radius: 2rem;
+}
+.details-head {
+	margin-left: 40px;
+}
+.details-icons {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+}
+.icon-1 {
+	position: relative;
+}
+.icn {
+	border-right: 1px solid gray;
+}
