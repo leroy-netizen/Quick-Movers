@@ -320,7 +320,7 @@ nav ul li a {
 }
 .btn-prop {
 	background-color: #ffac12;
-	padding: 20px 20px;
+	padding: 10px 10px;
 	border-top-right-radius: 40px;
 }
 .btn-prop a .fa-solid {
@@ -469,4 +469,9 @@ form a {
 }
 .icn {
 	border-right: 1px solid gray;
+}
+.desc p {
+	width: 50%;
+	font-size: smaller;
+	margin-left: 40px;
 }
