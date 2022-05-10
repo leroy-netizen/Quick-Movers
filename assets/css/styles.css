@@ -1,9 +1,6 @@
 /** @format */
 
 /* Global Styles */
-/* * {
-	border: #faff00 2px solid;
-} */
 
 body {
 	margin: 0;
@@ -15,32 +12,40 @@ body {
 #header {
 	background-image: url('/assets/images/moving\ 1.png');
 	background-position: center center;
-	object-fit: none;
+
 	height: 90vh;
 }
 #header nav {
 	padding-top: 50px;
-	margin-left: 40%;
+	margin-left: 20%;
 }
 #header nav .nav-links {
-	/* justify-content: space-between; */
+	justify-content: space-between;
 }
 
 #header > nav > .nav-links > li {
 	list-style: none;
 	display: inline;
-	margin: 30px;
+	margin: 10px;
 }
 #header > nav > .nav-links > li > a {
 	text-decoration: none;
 	color: white;
 	font-size: 1.5rem;
 }
+#header > nav > .nav-links > li > a .btn-1 {
+	padding: 10px 10px;
+	background-color: #faff00;
+	color: black;
+}
+.btn-2 a {
+	color: black;
+}
 .info {
 	margin-top: 5%;
 }
 .info > .large {
-	font-size: 5rem;
+	font-size: 4rem;
 	margin-left: 5%;
 	color: #faff00;
 	width: 50%;
